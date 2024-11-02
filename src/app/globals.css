@@ -2,7 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: pink;
-  --foreground: black;
+body {
+  background-color: pink;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
 }
