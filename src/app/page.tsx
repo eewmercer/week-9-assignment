@@ -1,6 +1,4 @@
-import { useState } from "react";
 import { PrismaClient } from "@prisma/client";
-import { lightningCssTransform } from "next/dist/build/swc/generated-native";
 
 const prisma = new PrismaClient();
 
