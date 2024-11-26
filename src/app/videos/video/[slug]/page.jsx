@@ -1,4 +1,3 @@
-import { PrismaClient } from "@prisma/client";
 import VideoInfo from './VideoInfo'
 
 export default function Videos({params}) {
