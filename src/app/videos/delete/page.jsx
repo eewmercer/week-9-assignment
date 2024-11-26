@@ -8,7 +8,7 @@ export default function Videos(props) {
         <>
             <form action={deleteVideo}>
                 <input type="hidden"  name="videoID" value={props.videoID}/>
-                <button>DELETE</button>
+                <button>Delete</button>
             </form>
         </>
     );
