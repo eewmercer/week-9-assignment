@@ -1,4 +1,3 @@
-import { PrismaClient } from "@prisma/client";
 import deleteVideo from '../videosMethods'
 
 export default function Videos(props) {

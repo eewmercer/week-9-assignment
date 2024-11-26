@@ -1,4 +1,3 @@
-import { PrismaClient } from "@prisma/client";
 import addVideo from '../addVideosMethods'
 
 export default function Videos() {
